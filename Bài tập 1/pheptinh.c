@@ -21,7 +21,7 @@ int main(){
   //gan thuong a / b va ep kieu
   thuong = (double)a / b;
   //hien thi ra man hinh tong = 8, hieu = -2, tich = 15,thuong  = 0.6
-  printf9("a + b = %d, a - b = %d, a * b = %d, a / b = %0.1f" , tong, hieu, tich, thuong );
+  printf("a + b = %d, a - b = %d, a * b = %d, a / b = %0.1f" , tong, hieu, tich, thuong );
   getchar();
   return 0;
   
