@@ -1,0 +1,30 @@
+Câu 1:
+A : Bộ chữ viết trong ngôn ngữ C bao gồm những ký tự, ký hiệu sau: (phân biệt chữ in hoa và in thường):
+
+26 chữ cái latinh hoa A,B,C...Z
+26 chữ cái latinh thường a,b,c ...z.
+10 chữ số thập phân 0,1,2...9.
+Các ký hiệu toán học: +, -, *, /, =, <, >, (, )
+Các ký hiệu đặc biệt: :. , ; " ' _ @ # $ ! ^ [ ] { } ...
+Dấu cách hay khoảng trống, xuống hàng (\n) và tab (\t)
+B: Các kiểu dữ liệu cơ sở  trong C có thể được chia làm 2 dạng : kiểu số nguyên, kiểu số thực.
+C: Khái niệm khai báo biến :Biến là một đại lượng được người lập trình định nghĩa và được đặt tên thông qua việc khai báo biến. Biến dùng để chứa dữ liệu trong quá trình thực hiện chương trình và giá trị của biến có thể bị thay đổi trong quá trình này. Cách đặt tên biến giống như cách đặt tên đã nói trong phần trên.
+Cú pháp khai báo biến :<Kiểu dữ liệu> Danh sách các tên biến cách nhau bởi dấu phẩy;
+D :Khái niệm biến toàn cục trong ngôn ngữ C: Biến toàn cục là biến được khai báo bên ngoài tất cả các hàm và được hiểu bên trong tất cả các hàm. Thông thường biến toàn cục được khai báo ở đầu
+Khái niệm biến cục bộ trong ngôn ngữ C : 
+Biến cục bộ là biến được hiểu bên trong một phạm vi nào đó của chương trình. Ra khỏi phạm vi này, nó không còn được biết đến nữa. Một biến được khai báo bên trong thân hàm main thì được gọi là biến cục bộ của hàm main tức là nó chỉ được hiểu bên trong thân hàm main mà thôi.
+E : Khái niệm về hàm trong ngôn ngữ C: Hàm là một đoạn chương trình bao gồm một hoặc nhiều xử lý nhằm giải quyết một công việc nào đó và được xây dựng với mục đích tái sử dụng
+-Phân loại hàm : Hàm trong ngôn ngữ C được phân làm 3 loại :
++ Hàm không có giá trị trả về
++ Hàm có giá trị trả về
++ Hàm kiểm tra
+ 
+F : Nguyên tắc hoạt động của hàm C :
+
+Khi máy gặp lời gọi hàm ở bất kỳ chỗ nào đó thì hàm bắt đầu được thực hiện, tức sẽ rời chỗ đó để đi đến hàm được gọi.
+
+Nếu là hàm có tham số thì máy sẽ thực hiện truyền tham số thực cho các tham số hình thức tương ứng trong hàm.
+
+Máy bắt đầu thực hiện lần lượt các câu lệnh trong thân hàm đến khi nào lệnh reuturn hoặc dấu } của hàm thì dừng lại thoát khỏi hàm trở về chương trình đã gọi nó và thực hiện tiếp các câu lệnh của chương trình này.
+
+Nếu hàm trả về giá trị thì giá trị của biểu thức return trong hàm sẽ là giá trị của hàm.
